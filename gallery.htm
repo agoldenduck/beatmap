@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Album Gallery</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="beatmap.js"></script>
+  <style type="text/css">
+    p.news {
+      font-size: 11px;
+      color: #666666;
+      padding: 0;
+      margin: 0;
+    }
+
+    p.news span {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="central">
+    <div id="header">
+      <form id="login" action="">
+        <p>
+          <label for="txtuser">User:</label>
+          <input type="text" class="text" name="txtuser" id="txtuser" />
+          <br/>
+          <label for="txtpass">Password:</label>
+          <input type="password" class="text" name="txtpass" id="txtpass" />
+          <br/>
+          <input type="submit" class="buttons" id="btnlogin" name="btnlogin" value="Login" />
+        </p>
+      </form>
+    </div>
+    <ul id="navlist">
+      <li><a id="n1" href="index.htm">Home</a></li>
+      <li><a id="n2" href="products.htm">Products</a></li>
+      <li><a id="n3" href="reviews.htm">Reviews</a></li>
+      <li><a id="n4" href="contact.htm">Enquiries</a></li>
+      <li>
+        <span id="current"><a id="n5" href="gallery.htm">Gallery</a></span>
+      </li>
+    </ul>
+    <div id="content">
+      <div id="leftside">
+        <h3>Featured Artist</h3>
+        <div id="picture1"></div>
+        <h3>Featured Artist</h3>
+        <div id="picture2"></div>
+      </div>
+      <div id="rightside">
+        <img id="placeholder" src="images/product/fergie.jpg" alt="my image gallery" />
+        <p id="description">Choose an image.</p>
+        <ul id="imagegallery">
+          <li>
+            <a href="images/product/abba.jpg" title="This is image 1">
+              <img src="images/product/abba.jpg" alt="Album cover for ABBA" />
+            </a>
+          </li>
+          <li>
+            <a href="images/product/bowie.jpg" title="This is image 2">
+              <img src="images/product/bowie.jpg" alt="Album cover for David Bowie" />
+            </a>
+          </li>
+          <li>
+            <a href="images/product/linkin.jpg" title="This is image 3">
+              <img src="images/product/linkin.jpg" alt="Album cover for Linkin Park" />
+            </a>
+          </li>
+          <li>
+            <a href="images/product/nin.jpg" title="This is image 4">
+              <img src="images/product/nin.jpg" alt="Album cover for Nine Inch Nails" />
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <div id="footer">
+        <p>&copy; Beatmap 2013</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

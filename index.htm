@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Welcome to Beatmap</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="beatmap.js"></script>
+  <style type="text/css">
+    p.news {
+      font-size: 11px;
+      color: #666666;
+      padding: 0;
+      margin: 0;
+    }
+    
+    p.news span {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="central">
+    <div id="header">
+      <form id="login" action="">
+        <p>
+          <label for="txtuser">User:</label>
+          <input type="text" class="text" name="txtuser" id="txtuser" />
+          <br/>
+          <label for="txtpass">Password:</label>
+          <input type="password" class="text" name="txtpass" id="txtpass" />
+          <br/>
+          <input type="submit" class="buttons" id="btnlogin" name="btnlogin" value="Login" />
+        </p>
+      </form>
+    </div>
+    <ul id="navlist">
+      <li>
+        <span id="current"><a id="n1" href="#">Home</a></span>
+      </li>
+      <li><a id="n2" href="products.htm">Products</a></li>
+      <li><a id="n3" href="reviews.htm">Reviews</a></li>
+      <li><a id="n4" href="contact.htm">Enquiries</a></li>
+      <li><a id="n5" href="gallery.htm">Gallery</a></li>
+    </ul>
+    <div id="content">
+      <div id="leftside">
+        <h3>Featured Artist</h3>
+        <div id="picture1"></div>
+        <h3>Featured Artist</h3>
+        <div id="picture2"></div>
+      </div>
+      <div id="rightside">
+        <div id="story1">
+          <h3>Spice Girls premiere new song</h3>
+          <p class="news">
+            <em>Headlines (Friendship Never Ends)</em> is the first new single from the reformed girl band since 2000 and is the official Children In Need track for 2007.</p>
+
+          <p class="news">Geri Halliwell, Victoria Beckham, Melanie Brown, Melanie Chisholm and Emma Bunton have regrouped to promote a new Spice Girls' greatest hits album and an upcoming world tour. <a href="#">more ...</a></p>
+        </div>
+
+        <div id="story2">
+          <h3>Jay-Z defends Nas album title</h3>
+          <p class="news">Hip-hop mogul Jay-Z has defended Nas' decision to name his new album
+            <span>N**ger</span>, but insists the naming of the record is "misguided".</p>
+
+          <p>Jay-Z - real name Shawn Carter - is releasing the LP under his label Island Def Jam Music Group, but admits he is not fond of its title. <a href="#">more ...</a></p>
+        </div>
+        <div id="story3">
+          <h3>Winehouse defends MTV EMAs performance</h3>
+          <p class="news">Amy Winehouse has defended her performance at Thursday's MTV European Music Awards - citing exhaustion for her bizarre behaviour. <a href="#">more ...</a></p>
+        </div>
+        <div id="story4">
+          <h3>Green Day back Britney</h3>
+          <p class="news">Billie Joe Armstrong claims Britney Spears is "a manufactured child", who has been "thrown to the lions" by the world's media.</p>
+          <p>The Green Day singer has expressed his anger at the treatment the pop icon has been receiving in recent months, following her September appearance at the MTV Awards. <a href="#">more ...</a></p>
+        </div>
+      </div>
+      <div id="footer">
+        <p>&copy; Beatmap 2013</p>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

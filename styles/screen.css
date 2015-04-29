@@ -1,0 +1,41 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:.9em;
+	line-height:1.5;
+
+}
+#one {
+	color:navy;
+	font-weight:500;
+	border:5px double #ccc ;
+	padding:25px 100px;
+	font-size:0.8em;
+	width:600px;
+	margin:auto;
+	}
+
+li {
+	margin-top:10px;
+	color:#333;
+}
+h1{text-align:center;
+border-top:1px dotted #00f;
+border-bottom:1px dotted #00f;
+padding:5px 0;
+font-family:Arial Black, Arial, Verdana, sans-serif;
+
+}
+.emph{font-style:italic;
+color:#333333;
+font-weight:bold;
+}
+#note{padding-left:10px;
+padding-top:20px;
+display:block;
+color:#333;
+}
+#mark{border:5px solid #ccc;
+padding:5px 20px 5px 10px;
+margin:10px;
+background:#ffffe0;
+}
