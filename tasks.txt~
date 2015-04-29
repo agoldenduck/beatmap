@@ -20,6 +20,9 @@ When the form has been validated, show an alert box that displays the data enter
 Functions:
 doesItBlend()
 
+Notes:
+Could not get this to work on IE8 or IE10 - I hope this is a local problem because the people of the internet seemed unsure why this wouldn't work for others who seemed to experience it. Specifically the confirm box would not appear, it would go immediately to the success page. Other validations all worked fine. I would love to know if you can see why this isn't working on IE.
+
 ##########
 # TASK 3 #
 ##########
